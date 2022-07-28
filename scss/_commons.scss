@@ -1,0 +1,45 @@
+h1,
+h2,
+h3 {
+    font-family: $secondaryFont;
+    font-weight: $textBold;
+    color: $keyColor;
+}
+
+h1 {
+    font-size: $textLg;
+}
+
+h2 {
+    font-size: $textMd;
+}
+
+h3 {
+    font-size: $textSm;
+}
+
+body {
+    background-color: $bg-liviano;
+}
+
+
+.bg-green {
+    background-color: $keyColor2;
+}
+
+.btn-p {
+    background-color: $keyColor;
+    color: $white;
+}
+
+div{
+	a{
+		text-decoration:none;
+	}
+}
+
+article{
+	img{
+		box-shadow: 0 1px 15px $colorResaltado;
+	}
+}
